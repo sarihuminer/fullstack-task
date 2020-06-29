@@ -1,7 +1,8 @@
 # Angular7courseTest
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.5.
-
+It has table with random numbers, you need to type number and to click select' and so this number in the table become red
+I did it with templete method-ngModel and ngClass -in order to catch the carisponding filed and change his color
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
