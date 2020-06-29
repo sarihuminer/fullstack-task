@@ -1,0 +1,13 @@
+
+<form #form="ngForm">
+  <p class="p">שרי שטרן</p>
+    <table class="table">
+        <th  class="p" id="h1">מספרים מוגרלים</th>
+        <tr id=num  *ngFor="let num of randomNumbers">
+            <td  class="col p"  [ngClass]="num==selectedNum?'red':''">{{num}}</td>    
+        </tr>
+        <input type="number" class="p" name="selected" [(ngModel)]=painter/>
+        <button type="button" class="p"  (click)="selected()">בחר</button>
+        <button type="button" class="p" (click)="clear()">נקה</button>
+    </table>
+</form>
