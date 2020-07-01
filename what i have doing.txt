@@ -1,0 +1,13 @@
+I created a number random table
+if you type a number 
+and click to select
+the same numbers in the table become red
+
+i make it using templete method-ngModel
+
+all the number are connected to ngClass
+and when I click on select 
+a member that connected to this class== to the type number
+
+and with ngClass these numbers that equal to the type number become red
+
